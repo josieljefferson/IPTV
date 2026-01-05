@@ -9,9 +9,17 @@ from pathlib import Path
 # =============================
 
 EPG_SOURCES = [
+    "https://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5",
+    "https://m3u4u.com/epg/3wk1y24kx7uzdevxygz7",
+    "https://m3u4u.com/epg/782dyqdrqkh1xegen4zp",
     "https://www.open-epg.com/files/brazil1.xml.gz",
+    "https://www.open-epg.com/files/brazil2.xml.gz",
+    "https://www.open-epg.com/files/brazil3.xml.gz",
+    "https://www.open-epg.com/files/brazil4.xml.gz",
     "https://www.open-epg.com/files/portugal1.xml.gz",
-    "https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz"
+    "https://www.open-epg.com/files/portugal2.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz"
 ]
 
 OUTPUT = Path("epg.xml")
